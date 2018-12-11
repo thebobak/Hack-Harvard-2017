@@ -1,0 +1,853 @@
+body, html {
+background-color: white;
+margin: 0;
+padding: 0;
+}
+
+/* ABOUT SECTION */
+
+.title {
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: -5px;
+}
+
+.pichide {
+    display: none;
+}
+
+.fa-envelope {
+    font-size: 20px !important;
+}
+
+.mail {
+    margin-right: -15px;
+}
+
+.subp {
+    font-size: 1.3em;
+}
+
+.titl4 {
+    text-align: left;
+    font-family: "Oswald";
+    font-size: 45px !important;
+    margin-top: 75px;
+}
+
+.intextlink {
+    color: #333 !important;
+    text-decoration: underline;
+}
+
+.lineyellow {
+    border: 2px solid #FEBA12;
+    width: 690px;
+    margin: 0 auto;
+}
+
+.low {
+    margin-bottom: -40px !important;
+}
+
+.footnotes {
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.footsub1 {
+    height: 60px;
+    background-color: #252525;
+    font-family: "Hind";
+    color: silver;
+    clear: both;
+    font-size: 1.0em;
+    text-align: center;
+    padding-top: 0px;
+    display: block;
+    position: absolute !important;
+    bottom: 0px !important;
+}
+
+.bodysub {
+    position: relative;
+}
+
+.biohov {
+    overflow: auto;
+}
+
+#watchbutton {
+    width: 210px;
+    background-color: #FEBA12;
+    text-align: center;
+    font-size: 1.7em;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 80px;
+}
+
+.next {
+    width: 660px;
+    margin: auto;
+    height: 80px;
+    overflow: auto;
+}
+
+
+.glyphicon-arrow-left {
+   position: absolute;
+   top: 0px;
+   left: 2px;
+    font-size: 45px !important;
+    color: #FEBA12;
+}
+
+.glyphicon-arrow-right {
+  position: absolute;
+   top: 0px;
+   right: 2px;
+    font-size: 45px !important;
+}
+
+.watchvid {
+    color: black !important;
+     text-decoration: none !important;
+     margin-top: 30px;
+     margin-bottom: 60px;
+}
+
+.blackline {
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.watchvid:hover {
+    color: #444444 !important;
+     text-decoration: none !important;
+}
+
+.glyphicon-play {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.nextp {
+    display: inline;
+    height: 45px;
+    font-size: 1.4em;
+    position: absolute;
+    right: 60px;
+    top: 10px;
+}
+
+.previousp {
+    display: inline;
+    height: 45px;
+    font-size: 1.4em;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+
+.bottom {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    position: relative;
+}
+
+.watch a:hover {
+    color: #555555 !important;
+}
+
+
+
+.watch {
+     margin-top: 40px;
+     margin-bottom: 20px;
+}
+
+.teamline {
+    border: 1px solid #FEBA12;
+    width: 960px;
+}
+
+.teamlight {
+    width: 960px;
+}
+
+.title2 {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 50px;
+}
+
+.subtitle {
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    font-size: 1.3em;
+}
+
+ul {
+    padding-bottom: 15px;
+}
+
+.creds {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.storyimgc {
+}
+
+.send {
+    font-size: 4em;
+    text-align: center;
+}
+
+.active {
+    color: #FEBA12 !important;
+}
+
+.biohovk {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    overflow: auto;
+}
+
+.biohovt {
+    overflow: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.biohovd {
+    overflow: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.link {
+    text-decoration: none !important;
+    color: #49659E !important;
+}
+
+.link:hover {
+    color: #211219;
+}
+
+.topheading {
+    margin-top: 80px;
+}
+
+.space {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.aboutvideo {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.storytitle {
+    margin-bottom: 30px;
+}
+
+.storytitle1 {
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+.storyimgc {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.sheading {
+    text-align: center;
+}
+
+.storyimg {
+    width: 100%;
+
+}
+
+/*-webkit-background-size: cover;
+ -moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position: relative;
+overflow: auto; */
+
+.storyimg2 {
+    width: 100%;
+}
+
+.pcredit {
+    position: absolute;
+    bottom: -10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    opacity: .9;
+    text-align: center;
+    font-family: "Lora";
+    padding: 8px 0px 8px 0px;
+    font-size: 1.1em;
+}
+
+#huge {
+    font-size: 6em;
+    float: left;
+    padding: 33px 10px 20px 0px;
+    font-family: "Lora";
+}
+
+.enext {
+    font-size: 28px !important;
+    padding-left: 10px;
+    padding-top: -15px !important;
+}
+
+h3 {
+    text-align: center;
+    margin-top: -15px;
+    font-size: 1.8em;
+}
+
+.faces {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+/* If screen is small */
+
+@media(max-width:767px) {
+
+a {
+color: #FBF0AF;
+z-index: 300;
+}
+
+.mail {
+    display: block !important;
+    border-bottom: 1px solid #303030 !important;
+    margin-top: -49px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    padding-bottom: 4px !important;
+}
+
+.face {
+    display: block !important;
+    margin-top: -15px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: -29px !important;
+}
+
+.yellow {
+    border-bottom: 1px solid #303030 !important;
+    margin-left: -15px;
+    margin-top: -25px;
+    padding-bottom: 10px !important;
+}
+
+
+h3 {
+    font-size: 1.3em;
+}
+
+.pic {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.picshow {
+    display: none !important;
+}
+
+#huge {
+    font-size: 3.4em;
+    float: left;
+    margin-top: -9px;
+    margin-bottom: -25px;
+    padding: 0px 5px 0px 0px;
+    font-family: "Lora";
+}
+
+.bio {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.faces {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 100%;
+}
+
+
+
+.pichide {
+    display: block !important;
+}
+
+#logo2 {
+display: none;
+}
+
+#logo {
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+}
+
+.staff {
+    font-family: "Oswald";
+    font-size: 2.5em;
+    color: #FEBA12;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+} 
+
+.subscribep {
+    display: none;
+}
+
+.staff2 {
+    font-family: "Oswald";
+    font-size: 1.9em;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+} 
+
+.sub {
+    text-align: left;
+    font-family: "Oswald";
+    font-size: 1.5em;
+}
+
+.title {
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.send {
+    font-size: 3em !important;
+}
+
+.topheading {
+    margin-top: 15px !important;
+    padding-top: 20px;
+}
+
+.about {
+    padding: 35px;
+    margin: 10 auto;
+}
+
+p {
+    font-size: .9em;
+    font-family: "Open Sans";
+}
+    
+}
+
+/* If screen is big */
+
+@media(min-width:768px) {
+    
+.navbar-fixed-top .navbar-brand {
+padding: 15px 0;
+}
+
+.team {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.dhyanL {
+    padding-top: 30px;
+}
+
+.faces {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.title {
+    font-family: "Oswald";
+    font-size: 3.8em;
+}
+
+.staff {
+    font-family: "Oswald";
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #FEBA12;
+    padding-top: 30px;
+} 
+
+.sub {
+    text-align: left;
+    font-family: "Oswald";
+    font-size: 1.5em;
+}
+
+.staff2 {
+    font-family: "Oswald";
+    font-size: 2.1em;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: -20px;
+} 
+
+p {
+   margin-bottom: 35px;
+}
+
+#logo2 {
+margin-top: -20px;
+}
+
+#logo {
+display: none;
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+}      
+
+.about {
+    width: 690px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "Lora";
+    font-size: 1.3em;
+    word-spacing: 2px !important;
+    line-height: 180%;
+}
+
+.aboutbio {
+    width: 500px;
+    margin-left: 80px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    float: left;
+    font-family: "Lora";
+    font-size: 1.3em;
+    word-spacing: 2px !important;
+    line-height: 180%;
+}
+
+.aboutbioR {
+    width: 500px;
+    margin-top: -20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    float: left;
+    font-family: "Lora";
+    font-size: 1.3em;
+    word-spacing: 2px !important;
+    line-height: 180%;
+    }
+
+.facesL {
+    margin-top: 10px !important;
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.facesR {
+    margin-top: 110px !important;
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+}
+
+@media(max-width:550px) {
+
+input {
+    width: 250px !important;
+    margin-left: 10px !important;
+    font-size: 1.3em !important;
+}
+
+.send {
+    font-size: 2em !important;
+}
+
+form {
+    width: 260px !important;
+    margin: 0 auto !important;
+}
+
+textarea {
+    width: 250px !important;
+    margin-left: 10px !important;
+    height: 150px !important;
+    font-size: 1.2em !important;
+}
+
+form p {
+    font-size: 1.2em !important;
+    padding-left: 10px;
+    margin-bottom: 0;
+    display: block;
+
+}
+
+
+}
+
+
+
+/* Navigation */
+
+.glyphicon {
+    font-size: 19px;
+}
+
+#li2 {
+padding-top: 21px;
+}
+
+.fa-facebook-square {
+font-size: 21px;
+}
+
+#mail {
+margin-right: -15px;
+font-size: 19px;
+}
+
+#li2:hover {
+opacity: 1.0;
+}
+
+#logo {
+z-index: 200;
+}
+
+header {
+z-index: 500;
+position: relative;
+margin-bottom: -20px;
+}
+
+.navbar-fixed-top .navbar-brand {
+padding: 0 15px;
+z-index: 300;
+}
+
+.navbar-fixed-top .nav {
+padding: 15px 0;
+}
+
+.navbar-fixed-top {
+border: 1px solid white;
+}
+
+.li {
+padding-top: 21px;
+margin-top: 2px;
+margin-left: 15px;
+padding-bottom: 10px;
+font-family: "Oswald";
+z-index: 300;
+}
+
+a {
+color: #FEF8B4 !important;
+z-index: 300;
+}
+
+a:hover {
+color: #FEBA12 !important;
+}
+
+footer {
+    height: 60px;
+    background-color: #252525;
+    font-family: "Hind";
+    color: silver;
+    clear: both;
+    font-size: 1.0em;
+    text-align: center;
+    padding-top: 0px;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.fa-play-circle {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.about {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.subscribep {
+    margin-bottom: 50px;
+    width: 300px;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.h2sub {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto 50px auto;
+    padding-bottom: 50px;
+    width: 550px;
+}
+
+form p {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+input {
+    margin: 0px auto 20px auto;
+    height: 37px;
+    width: 550px;
+    display: block;
+    font-size: 1.6em;
+}
+
+#submitb {
+    border: 0px;
+    height: 43px;
+    background-color: #FEBA12;
+    margin-top: 20px;
+     border: 0px;
+}
+
+
+#submitb:hover {
+    background-color: #FFBF52;
+   
+
+}
+
+::-webkit-input-placeholder {
+   opacity: 0.8;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   opacity: 0.8; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   opacity: 0.8; 
+}
+
+:-ms-input-placeholder {  
+   opacity: 0.8;
+}
+
+
+textarea {
+    width: 550px;
+    font-size: 1.7em;
+    display: block;
+    height: 300px;
+    font-size: 1.6em;
+
+}
+
+.callbutton {
+    width: 100px;
+    padding: 8px 5px;
+    background-color: #FEBA12;
+    color: black;
+    font-size: 1.3em;
+    font-family: "Lora";
+    font-weight: 800;
+    text-align: center;
+    float: left;
+    display: inline;
+    position: absolute;
+    left: 249px;
+    border: 0px;
+}
+
+.sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
+    background-color: #000000 !important;
+    background-image: url("/universal/images-v6/icons/icon-video-48-light-solid.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 48px;
+    left: 50%;
+    margin-left: -24px;
+    margin-top: -24px;
+    opacity: 0.8;
+    padding: 8px !important;
+    position: absolute;
+    top: 50%;
+    width: 48px;
+}
+
+
+/* Back up styles ...
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. 
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; 
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+*/

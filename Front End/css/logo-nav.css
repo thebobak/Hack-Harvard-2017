@@ -1,0 +1,502 @@
+/* General */
+
+body, html {
+background-color: black;
+color: white;
+margin: 0;
+padding: 0;
+}
+
+/* Global Style */
+
+.title {
+    position: relative;
+    top: 18px;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.float-left {
+    float: right !important;
+    display: inline-block;
+}
+
+.navbar-right {
+    float: right !important;
+     display: inline-block;
+}
+
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+h1 {
+font-size: 4.5em;
+font-family: "Oswald";
+text-shadow: 4px 4px 4px #4D4D4D;
+padding-top: 0;
+margin-top: 0;
+}
+
+h3 {
+font-size: 3.0em !important;
+font-family: "Oswald";
+text-shadow: 0px 0px 4px #343434;
+}
+
+#img1:hover {
+
+}
+
+.more {
+    background-color: #FEBA12;
+    clear: both;
+    height: 50px;
+}
+
+.showm {
+    display: none;
+}
+
+.pmore {
+    text-align: center;
+    padding-top: 10px;
+    color: #333;
+    font-family: "Oswald";
+    font-size: 1.3em;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.hidenow {
+    display: none;
+}
+
+/* Navigation Styles */
+
+header {
+z-index: 500;
+position: relative;
+margin-bottom: -20px;
+}
+
+header a {
+color: #FEF8B4 !important;
+font-family: "Oswald";
+font-size: 1em;
+font-weight: lighter !important;
+}
+
+header a:hover {
+color: #FEBA12 !important;
+}
+
+.navbar-fixed-top .navbar-brand {
+padding: 15px 0;
+z-index: 300;
+}
+
+.navbar-fixed-top {
+border: 1px solid white;
+}
+
+.fa-twitter-square {
+    margin-left: -30px;
+}
+
+.fa-envelope {
+    font-size: 20px !important;
+    position: relative;
+    top: -2px;
+}
+
+.li {
+padding-top: 21px;
+margin-top: 2px;
+margin-left: 15px;
+padding-bottom: 19px;
+z-index: 300;
+}
+
+#logo2 {
+margin-top: -20px;
+}
+
+#logo {
+display: none;
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+}
+
+.glyphicon {
+    font-size: 19px;
+}
+
+.mail {
+margin-right: -25px;
+}
+
+.face {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #FEF8B4 !important;
+
+}
+
+.yellow {
+padding-bottom: -15px;
+}
+
+#logo {
+z-index: 200;
+}
+
+/* Slider Styles */
+
+.myCarousel {
+position: relative;
+margin-top: -25px;
+}
+
+.item {
+    position: relative;
+}
+
+.carousel-caption {
+position: absolute;
+text-align: left;
+margin-top: -160px;
+top: 50%;
+margin-left: -60px;
+width: 350px;
+height: 320px;
+z-index: 300;
+}
+
+.carouseltitle {
+font-size: 4.0em !important;
+text-shadow: 1px 1px 5px black;
+color: white;
+}
+
+.carouselimg {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+width: 100%;
+height: auto;
+position: relative;
+}
+
+.carousel-control.left, .carousel-control.right {background-image: none}
+
+.blue {
+color: #FFBA00;
+font-family: "Oswald";
+text-shadow: 1px 1px 3px black;
+}
+
+/* Call for Submissions Styles */
+
+.callbutton {
+width: 160px;
+padding: 10px;
+background-color: #FEBA12;
+color: black;
+font-size: 1.2em;
+font-family: "Open Sans";
+font-weight: bold !important;
+text-align: center;
+}
+
+.callbutton a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.grey {
+    background-color: #252525;
+    display: block !important;
+}
+
+#noimg {
+    visibility: hidden;
+}
+
+/* Grid Styles */
+
+.gridcontainer {
+width: 50%;
+float: left;
+position: relative;
+overflow: hidden;
+height: auto;
+}
+
+.gridtitle {
+font-size: 2.8em !important;
+text-shadow: 1px 1px 5px black;
+font-weight: 100 !important;
+color: white;
+}
+
+.gridcontainer a {
+    color: white;
+}
+
+.blurb {
+font-family: Lora;
+font-size: 1.2em;
+text-shadow: 0px 0px 5px black;
+z-index: 450;
+}
+
+.gridimage {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+width: 100%;
+height: auto;
+z-index: 0;
+}
+
+.gridimagew {
+    position:relative;
+}
+
+.gridimagew:after {
+ -moz-box-shadow: inset 0 0 12em black;
+ -webkit-box-shadow: inset 0 0 12em black;
+ box-shadow: inset 0 0 12em black;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 1;
+ content: "";
+}
+
+.gridtext {
+position: absolute;
+text-align: left;
+margin-top: -90px;
+top: 50%;
+margin-left: 18%;
+width: 420px;
+z-index: 135;
+}
+
+/* If screen is under 1000px */
+@media(max-width:1000px) {
+
+.mail, .face {
+    display: none !important;
+}
+
+}
+
+/* If screen is under 967px */
+@media(max-width:967px) {
+
+.gridtitle {
+    font-size: 3.0em !important;
+}
+
+.carouseltitle {
+    font-size: 3.0em !important;
+}
+
+.carousel-caption {
+width: 600px !important;
+position: absolute;
+margin-top: -100px;
+margin-left: -50px;
+top: 50%;
+height: 220px;
+z-index: 300;
+}
+
+.gridtext {
+width: 600px !important;
+position: absolute;
+margin-top: -100px;
+margin-left: 125px;
+top: 50%;
+height: 220px;
+z-index: 300;
+}
+
+.gridcontainer {
+    width: 100% !important;
+}
+
+}
+
+@media(max-width:767px) {
+
+/* Hide elements */
+
+.grey {
+    display: none !important;
+}
+
+.gridtitle {
+    font-size: 2.2em !important;
+}
+
+.mail {
+    display: block !important;
+    border-bottom: 1px solid #303030 !important;
+    margin-top: -34px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    padding-bottom: 4px !important;
+}
+
+.face {
+    display: block !important;
+    margin-top: -5px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: -22px !important;
+}
+
+.aby {
+    margin-top: -16px !important;
+}
+
+.yellow {
+    border-bottom: 1px solid #303030 !important;
+    margin-left: -15px;
+    margin-top: -25px;
+    padding-bottom: 10px !important;
+}
+
+.collapse {
+    margin-bottom: 0px;
+}
+
+.gridtext {
+width: 600px !important;
+position: absolute;
+margin-top: -100px;
+margin-left: 105px;
+top: 50%;
+height: 220px;
+z-index: 300;
+}
+
+#logo2 {
+display: none;
+}
+
+#logo {
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+display: block;
+}
+
+/* Change sizes */
+
+.gridcontainer {
+    width: 100%;
+    height: auto;
+}
+
+.gridtext {
+    width: 450px !important;
+}
+
+
+} /* end of smallS */
+
+@media(max-width:550px) {
+
+.grey {
+    display: none !important;
+}
+.gridtext {
+width: 280px !important;
+position: absolute;
+margin-top: -60px;
+margin-left: 25px;
+top: 50%;
+height: 220px;
+z-index: 300;
+}
+
+.hidenow {
+    display: block;
+}
+
+#myCarousel{
+    display: none !important;
+}
+
+.gridtitle {
+font-size: 1.1em !important;
+}
+
+.blue {
+    font-size: .9em !important;
+}
+
+.blurb {
+font-size: .7em;
+text-shadow: 0px 0px 4px black;
+}
+
+footer {
+    font-size: .7em !important;
+}
+
+}
+
+/* Footer */
+
+footer {
+    height: 60px;
+    clear: both;
+    background-color: #141414;
+    font-family: "Montserrat";
+    color: #D9D9D9;
+    font-size: .8em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Back up styles ...
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes.
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+*/

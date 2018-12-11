@@ -1,0 +1,339 @@
+.navbar {
+  background-color: #FF7700 !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+body {
+background-color: white;
+}
+
+.time_left {
+  color: #FF7700;
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+/* ABOUT SECTION */
+
+.title {
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: -5px;
+}
+
+.fa-envelope {
+margin-right: -14px;
+}
+
+.fa-envelope {
+    font-size: 20px !important;
+}
+
+.active {
+    color: yellow !important;
+}
+
+#huge {
+    font-size: 6em;
+    float: left;
+    margin: -28px 0px -55px 0px;
+    padding: 0px 14px 2px 0px;
+    font-family: "Lora";
+}
+
+h3 {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.faces:hover {
+        -webkit-transform: scale(1.17);
+        -ms-transform: scale(1.17);
+        transform: scale(1.17);
+        }
+.faces {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+/* Map styles */
+
+.mapText {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.mapTitle {
+    font-size: 1.6em;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.mapContainer {
+    width: 260px;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+}
+
+#iw-container {
+}
+
+.mapLink {
+    font-size: 1.2;
+    font-weight: bold;
+    color: black !important;
+}
+
+.mapLink:hover {
+    font-size: 1.2;
+    font-weight: bold;
+    color: silver !important ;
+    text-decoration: none;
+}
+
+.black {
+    text-decoration: none;
+    color: #242424 !important;
+}
+
+.pics {
+    width: 110px;
+    float: left;
+    margin-right: 15px;
+    padding-bottom: 8px;
+}
+
+.black:hover {
+    text-decoration: none;
+    color: #FAAE34 !important;
+}
+/* If screen is small */
+
+@media(max-width:767px) {
+
+a {
+color: white;
+z-index: 300;
+}
+
+.pic {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.aboutvideo {
+    width: 100%;
+    height: 650px !important;
+}
+
+.faces {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#logo2 {
+display: none;
+}
+
+#logo {
+width: 140px;
+margin-top: -14px;
+z-index: 300;
+}
+
+.title {
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.about {
+    padding: 35px;
+    margin: 10 auto;
+}
+
+p {
+    font-size: .9em;
+    font-family: "Open Sans";
+}
+
+.mail {
+    display: block !important;
+    border-bottom: 1px solid #303030 !important;
+    margin-top: -39px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    padding-bottom: 4px !important;
+}
+
+.y2 {
+    padding-top: 24px !important;
+}
+
+.face {
+    display: block !important;
+    margin-top: -8px !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: -29px !important;
+}
+
+.yellow {
+    border-bottom: 1px solid #303030 !important;
+    margin-left: -15px !important;
+    margin-top: -30px !important;
+    padding-bottom: 10px !important;
+}
+
+}
+
+/* If screen is big */
+
+@media(min-width:768px) {
+
+.navbar-fixed-top .navbar-brand {
+padding: 15px 0;
+}
+
+.pic {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.faces {
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.title {
+    font-family: "Oswald";
+    font-size: 3.2em;
+}
+
+.staff {
+    font-family: "Oswald";
+    font-size: 3.5em;
+    color: #FEBA12;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#logo2 {
+margin-top: -20px;
+}
+
+#logo {
+display: none;
+width: 140px;
+margin-top: -14px;
+z-index: 300;
+}
+
+.about {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "Lora";
+    font-size: 1.4em;
+}
+
+}
+
+
+/* Navigation */
+
+.glyphicon {
+    font-size: 19px;
+}
+
+#li2 {
+padding-top: 21px;
+}
+
+.fa-facebook-square {
+font-size: 21px;
+}
+
+#mail {
+margin-right: -15px;
+}
+
+#li2:hover {
+opacity: 1.0;
+}
+
+#logo {
+z-index: 200;
+}
+
+header {
+z-index: 500;
+position: relative;
+margin-bottom: -20px;
+}
+
+.navbar-fixed-top .navbar-brand {
+padding: 0 15px;
+z-index: 300;
+}
+
+.navbar-fixed-top .nav {
+padding: 15px 0;
+}
+
+.navbar-fixed-top {
+border: 1px solid white;
+}
+
+.li {
+padding-top: 21px;
+margin-top: 2px;
+margin-left: 15px;
+padding-bottom: 21px;
+font-family: "Oswald";
+z-index: 300;
+}
+
+a {
+color: white !important;
+z-index: 300;
+}
+
+a:hover {
+color: #FEBA12 !important;
+}
+
+footer {
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    clear: both;
+    display: none;
+    background-color: #FF7700;
+    font-family: "Montserrat";
+    color: #D9D9D9;
+    font-size: .8em;
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.about {
+    margin-bottom: 60px;
+}
+
+.h2sub {
+    font-size: 1.6em;
+}

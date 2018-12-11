@@ -1,0 +1,210 @@
+/* General */
+
+body, html {
+background-color: white;
+color: #252525;
+font-family: "Lora";
+margin: 0;
+padding: 0;
+}
+
+.active {
+    color: #FEBA12 !important;
+}
+
+/* Navigation Styles */
+
+header {
+z-index: 500;
+position: relative;
+margin-bottom: -20px;
+}
+
+header a {
+color: #FEF8B4 !important;
+}
+
+header a:hover {
+color: #FEBA12 !important;
+}
+
+.navbar-fixed-top .navbar-brand {
+padding: 0 15px;
+z-index: 300;
+}
+
+.navbar-fixed-top .nav {
+padding: 15px 0;
+}
+
+.navbar-fixed-top {
+border: 1px solid white;
+}
+
+.li {
+padding-top: 21px;
+margin-top: 2px;
+margin-left: 15px;
+padding-bottom: 10px;
+font-family: "Oswald";
+z-index: 300;
+}
+ 
+#logo2 {
+margin-top: -20px;
+}
+
+#logo {
+display: none;
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+} 
+
+.glyphicon {
+    font-size: 19px;
+}
+
+.fa-facebook-square {
+font-size: 21px;
+}
+
+.mail {
+margin-right: -15px;
+}
+
+.yellow {
+padding-bottom: -15px;
+}
+
+#logo {
+z-index: 200;
+}
+
+
+/* If screen is small */
+
+@media(max-width:767px) {
+
+/* Hide elements */
+
+#logo2 {
+display: none;
+}
+
+#logo {
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+display: block;
+}
+
+/* Change sizes */
+   
+
+
+} /* end of smallS */
+
+/* ABOUT SECTION */
+   
+.titleS {
+    font-family: "Montserrat";
+    font-size: 5em;
+    color: #FEBA12;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    text-shadow: 1px 1px 2px black;
+} 
+
+.submit {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 1.6em;
+}
+
+.submit a {
+    text-decoration: none;
+    color: #49649F;
+}
+
+.submit a:hover {
+    text-decoration: none;
+    color: #49649F;
+}
+
+.submit p {
+    text-align: justify;
+}
+
+.submit h2 {
+    font-family: "Montserrat";
+    font-size: 2.4em;
+    color: #FEBA12;
+    text-align: center;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.submit ul {
+    margin-bottom: 40px;
+}
+
+.submit h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px black;
+    color: #FEBA12;
+}
+
+#huge {
+    font-size: 4em;
+    float: left;
+    margin: -20px 0px -55px 0px;
+    padding: 0px 14px 10px 0px;
+    font-family: "Lora";
+}
+
+/* Footer */
+
+footer {
+    height: 60px;
+    clear: both;
+    background-color: #252525;
+    font-family: "Montserrat";
+    color: #D9D9D9;
+    font-size: .8em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+
+/* If screen is small */
+
+
+
+/* Back up styles ...
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. 
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; 
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+*/

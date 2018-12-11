@@ -1,0 +1,242 @@
+body {
+background-color: white;
+}
+
+/* ABOUT SECTION */
+
+.title {
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: -5px;
+}
+
+.faces:hover {
+        -webkit-transform: scale(1.17);
+        -ms-transform: scale(1.17);
+        transform: scale(1.17);
+        }
+.faces {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+/* If screen is small */
+
+@media(max-width:767px) {
+
+a {
+color: #FBF0AF;
+z-index: 300;
+}
+
+.pic {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.faces {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#logo2 {
+display: none;
+}
+
+#logo {
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+}
+
+.staff {
+    font-family: "Oswald";
+    font-size: 6em;
+    color: #FEBA12;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+} 
+
+.title {
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.about {
+    padding: 35px;
+    margin: 10 auto;
+}
+
+p {
+    font-size: .9em;
+    font-family: "Open Sans";
+}
+    
+}
+
+/* If screen is big */
+
+@media(min-width:768px) {
+    
+.navbar-fixed-top .navbar-brand {
+padding: 15px 0;
+}
+
+.pic {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.faces {
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.title {
+    font-family: "Oswald";
+    font-size: 3.2em;
+}
+   
+.staff {
+    font-family: "Oswald";
+    font-size: 8em;
+    color: #FEBA12;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 2px black;
+} 
+#logo2 {
+margin-top: -20px;
+}
+
+#logo {
+display: none;
+width: 160px;
+margin-top: -14px;
+z-index: 300;
+}      
+
+.about {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 1.6em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation */
+
+.glyphicon {
+    font-size: 19px;
+}
+
+#li2 {
+padding-top: 21px;
+}
+
+.fa-facebook-square {
+font-size: 21px;
+}
+
+#mail {
+margin-right: -15px;
+}
+
+#li2:hover {
+opacity: 1.0;
+}
+
+#logo {
+z-index: 200;
+}
+
+header {
+z-index: 500;
+position: relative;
+margin-bottom: -20px;
+}
+
+.navbar-fixed-top .navbar-brand {
+padding: 0 15px;
+z-index: 300;
+}
+
+.navbar-fixed-top .nav {
+padding: 15px 0;
+}
+
+.navbar-fixed-top {
+border: 1px solid white;
+}
+
+.li {
+padding-top: 21px;
+margin-top: 2px;
+margin-left: 15px;
+padding-bottom: 10px;
+font-family: "Oswald";
+z-index: 300;
+}
+
+a {
+color: #FEF8B4 !important;
+z-index: 300;
+}
+
+a:hover {
+color: #FEBA12 !important;
+}
+
+/* If screen is small */
+
+
+
+/* Back up styles ...
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. 
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; 
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+*/
